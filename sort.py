@@ -103,7 +103,9 @@ def sort(path, global_path=path):
     print (f'list_of_known_ext = {list_of_known_ext}')
     print (f'list_of_unknown_ext = {list_of_unknown_ext}')
 
-__name__=="__main__" 
+if __name__=="__main__" :
+
+    sort(path)
 
 #python Git\hw6_py12\sort.py C:/Users/user/Desktop/GoIT_Phyton/HW6/Motloh
-sort(path)
+
